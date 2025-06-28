@@ -69,7 +69,7 @@ def create_lag_features(
 ) -> pd.DataFrame:
     """
     Belirtilen label ve exclude kolonları dışında her feature için geçmiş n_lags kadar lag sütunu ekler.
-    Performans için pd.concat kullanılır..
+    Performans için pd.concat kullanılır.
     """
     start = time.time()
 
