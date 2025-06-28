@@ -1,0 +1,2 @@
+epochs,batch_size,learning_rate,dropout_rate,lstm_units
+50,32,0.001,0.3,"[64, 32]"
